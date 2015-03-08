@@ -15,7 +15,8 @@ ls_data$Date=as.Date(ls_data$Date, format = "%d/%m/%Y")
 ls_data$Time=as.Date(ls_data$Time, format = "%H:%M:%S")
 
 ##Plot the hist and save to .png file
-png("plot1.png", bg = "transparent")
+png("Plot1.png", bg = "transparent")
+
 with(ls_data, 
      hist(Global_active_power,
           breaks = 12,
