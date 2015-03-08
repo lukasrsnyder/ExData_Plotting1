@@ -53,7 +53,7 @@ legend("topright",
        col=c("black", "red", "blue"),
        lty=c(1,1),
        bty="n")
-lines(y=ls$_data$Sub_metering_2, 
+lines(y=ls_data$Sub_metering_2, 
       x=ls_data$DateTime, 
       ylab="Energy sub metering", 
       xlab="",
